@@ -1,0 +1,20 @@
+help: "&aTBungeeUtills
+\n&6/tbutills - &ahelp
+\n&6/sh {script} - &arun sh script
+\n&6/php {script} - &arun php script
+\n&6/rcon {server/all} {command} - &asend command to rcon server"
+no_perms: "&cYou do not have permission to use this command"
+no_rcon_args: "&aNo command or server. Usage: rcon %server% %command%"
+succsess: "&aSuccessfully"
+error: "&cError"
+rcon_send_all: "&6Command &a {command}  &6send to &aALL &6servers"
+rcon_server_not_exist: "&6Server &a{server} &6not exist. Check rcon.yml file"
+rcon_server_send: "&6Command &a{command} &6send to &a{server} &6server"
+rcon_server_response: "&6Response server &a{server}"
+rcon_bind: "&aBinding rcon to address:"
+rcon_error_bind: "&cFailed to bind rcon port. Address already in use?"
+rcon_server_stop: "&aTrying to stop RCON listener"
+rcon_deny_ip: "&cTrying to connect from illegal IP!"
+rcon_connection_f: "&aRcon connection from"
+rcon_no_command: "&cNo such command"
+rcon_error_executing: "&cError executing:"

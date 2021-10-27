@@ -1,0 +1,43 @@
+# TBungeeUtills configuration
+language: "en"
+
+# Logger all rcon send server commands
+rcon_servers_log: false
+
+# Rcon settings
+Rcon:
+  # Enable/Disable Rcon
+  enabled: false
+  port: 25578
+  password: ""
+  # The response is colored or not
+  colored: true
+  # Enable/Disable IP Check
+  ip_allowed: true
+  # List of allowed IP addresses
+  allowed_ip:
+    - 127.0.0.1
+  # Logger all rcon connect commands
+  rcon_log: true
+    
+# Events settings
+# Placeholders: {player}, {server}
+# [console] - run console command
+# [delay] (seconds) - delay seconds command
+Events:
+  # Logger all events commands
+  event_logs: false
+  on_join_commands:
+    enabled: true
+    commands:
+      - "[console] alert &6Player {player} join the game"
+      - "[delay] 10"
+      - "server lobby"
+  on_leave_commands:
+    enabled: true
+    commands:
+      - "[console] alert &6Player {player} left the game"
+  on_server_switch:
+    enabled: true
+    commands:
+      - "[console] alert &6Player {player} join the server {server}"

@@ -1,0 +1,11 @@
+# Rcon Servers Settings
+lobby:
+  ip: "localhost"
+  port: 25576
+  pass: "password"
+  perms: "rcon.lobby"
+vanilla:
+  ip: "localhost"
+  port: 25578
+  pass: "password"
+  perms: "rcon.vanilla"

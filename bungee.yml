@@ -1,0 +1,21 @@
+name: TBungeeUtills
+version: 1.0.0
+author: GIGABAIT
+main: bungee.main.Main
+Commands:
+  tbutills:
+    description: help
+    usage: /tbutills
+    permission: tbutills
+  sh:
+    description: run sh script
+    usage: /sh {script}
+    permission: tbutills.run.sh
+  php:
+    description: run php script
+    usage: /php {script}
+    permission: tbutills.run.php
+  rcon:
+    description: send command to rcon server
+    usage: /rcon {server/all} {command}
+    permission: tbutills.rcon
